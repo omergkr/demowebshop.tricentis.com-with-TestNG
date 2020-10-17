@@ -1,0 +1,23 @@
+<suite name="suit1" parallel="tests" thread-cour="2">
+
+    <test name="test1">
+        <parameter name="giris" value="fundagulsan@hotmail.com"></parameter>
+        <parameter name="kullaniciSifre" value="asd123"></parameter>
+
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="Proje_TestNG.pas1"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <parameter name="giris" value="fundagulsan@hotmail.com"></parameter>
+        <parameter name="kullaniciSifre" value="asd123"></parameter>
+
+        <parameter name="browser" value="chermo"></parameter>
+        <classes>
+            <class name="Proje_TestNG.task2"></class>
+        </classes>
+    </test>
+
+</suite>
